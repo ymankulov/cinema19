@@ -1,0 +1,21 @@
+.actorsDetails {
+  display: flex;
+  align-items: start;
+  gap: 40px;
+  margin-top: 30px;
+  img {
+    object-fit: cover;
+  }
+  .op {
+    h1 {
+      margin-bottom: 30px;
+    }
+    h2 {
+      font-weight: 500;
+      margin-bottom: 10px;
+    }
+    h4 {
+      font-weight: 600;
+    }
+  }
+}

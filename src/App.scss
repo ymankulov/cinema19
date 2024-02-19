@@ -1,0 +1,34 @@
+@import "../src/styles/Header.scss";
+@import "../src/styles/MovieCard.scss";
+@import "../src/styles/Popular.scss";
+@import "../src/styles/TopRated.scss";
+@import "../src/styles/MovieDetails.scss";
+@import "../src/styles/Actors.scss";
+@import "../src/styles/Video.scss";
+@import "../src/styles/Treuler.scss";
+@import "../src/styles/ActiorsDetals.scss";
+@import "../src/styles/Search.scss";
+@import "../src/styles/ActorsMovie.scss";
+@import "../src/styles/Favorite.scss";
+
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+  outline: none;
+}
+html {
+  scroll-behavior: smooth;
+}
+button {
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+}

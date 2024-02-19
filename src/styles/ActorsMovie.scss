@@ -1,0 +1,27 @@
+#actorsMovie {
+  padding: 30px 0;
+  .actorsMovie {
+    display: flex;
+    gap: 30px;
+    overflow: auto;
+    &--block {
+      border: 2px solid black;
+      text-align: center;
+      position: relative;
+      img {
+        height: 200px;
+        object-fit: cover;
+      }
+      h1 {
+        font-size: 12px;
+        margin: 10px 0 20px 0;
+      }
+      h2 {
+        position: absolute;
+        font-size: 10px;
+        bottom: 5px;
+        left: 39px;
+      }
+    }
+  }
+}

@@ -1,0 +1,53 @@
+#header {
+  padding: 24px 0;
+  background: rgba(0, 0, 0, 0.65);
+  backdrop-filter: blur(5px);
+  position: sticky;
+  top: 0;
+  z-index: 99;
+  .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    img {
+      width: 300px;
+    }
+    select {
+      font-size: 20px;
+      padding: 7px 15px;
+      border-radius: 10px;
+    }
+    a {
+      font-size: 24px;
+      font-weight: 700;
+      color: white;
+    }
+    &--nav {
+      .active {
+        color: #11fffb;
+      }
+      a {
+        font-size: 24px;
+        font-weight: 700;
+        color: white;
+        margin: 0 24px;
+      }
+    }
+    &--search {
+      display: flex;
+      input {
+        padding: 14px 40px;
+        border-radius: 12px;
+      }
+      button {
+        padding: 7px 25px;
+        border-radius: 12px;
+        margin-left: 15px;
+        background: none;
+        color: white;
+        border: 2px solid white;
+        font-size: 20px;
+      }
+    }
+  }
+}

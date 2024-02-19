@@ -1,0 +1,24 @@
+#popular {
+  padding: 60px 0;
+  .popular {
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 40px;
+    &--pagination {
+      display: flex;
+      align-items: center;
+      button {
+        padding: 10px 30px;
+        border-radius: 13px;
+        background: #000;
+        color: white;
+      }
+      h4 {
+        font-size: 20px;
+        margin: 0 10px;
+      }
+    }
+  }
+}

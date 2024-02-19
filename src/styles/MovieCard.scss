@@ -1,0 +1,27 @@
+#movieCard {
+    .movieCard {
+      width: 300px;
+      border: 2px solid black;
+      border-radius: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      a {
+        width: 100%;
+        img {
+          width: 100%;
+          border-top-right-radius: 10px;
+          border-top-left-radius: 10px;
+        }
+      }
+      h3 {
+        margin-top: 20px;
+        font-size: 16px;
+      }
+      h4 {
+        margin: 20px 0;
+        font-size: 15px;
+      }
+    }
+  }

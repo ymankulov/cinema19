@@ -1,0 +1,19 @@
+#actors {
+  padding: 100px 0;
+  .actors {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    overflow-x: scroll;
+    &--card {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+        gap: 20px;
+        padding-bottom: 30px;
+       
+    }
+  }
+}
